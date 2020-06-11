@@ -18,10 +18,3 @@
 import 'bootstrap';
 
 
-//  navnar qui change de couleur selon l'emplacement
-import { initUpdateNavbarOnScroll } from '../components/navbar';
-
-document.addEventListener('turbolinks:load', () => {
-  // Call your JS functions here
-  initUpdateNavbarOnScroll();
-});
