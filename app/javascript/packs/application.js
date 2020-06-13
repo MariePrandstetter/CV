@@ -1,7 +1,7 @@
 import 'core-js/stable'
 import 'regenerator-runtime/runtime'
 import 'bootstrap';
-
+import $ from 'jquery';
 
 /* eslint no-console:0 */
 // This file is automatically compiled by Webpack, along with any other files
@@ -29,3 +29,13 @@ document.addEventListener('turbolinks:load', () => {
   initUpdateNavbarOnScroll();
 });
 
+
+
+//  compétences ease in à traduire en JS
+
+$(function() {
+  $('progress').each(function() {
+    var max = $(this).val();
+    $(this).val(0).animate({ value: max }, { duration: 2000, easing: 'easeOutCirc' });
+      });
+});
