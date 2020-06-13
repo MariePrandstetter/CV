@@ -16,7 +16,8 @@
     <%= render 'shared/navbar' %>
     <%= yield %>
 
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-    <!-- une ligne à ajouter js pack tag -->
+    <%= javascript_include_tag 'application' %>
+    <%= javascript_pack_tag 'application' %>
+    <%= yield :after_js %>
   </body>
 </html>
