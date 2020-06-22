@@ -1,6 +1,6 @@
 .navbar-lewagon {
   justify-content: space-between;
-  background: white;
+  background-color: white;
 }
 
 .navbar-lewagon .navbar-collapse {
@@ -20,5 +20,34 @@
 }
 
 .navbar-lewagon-white {
-  background-color: white;
+  background-color: $verdigris;
 }
+
+
+// navbar elements
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar-light .navbar-nav .active > .nav-link {
+  color: white;
+}
+
+.navbar-light .navbar-brand {
+  color: white;
+}
+
+// on hover
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: $light-gray;
+}
+.navbar-light .navbar-nav .active > .nav-link:hover {
+  color: $light-gray;
+}
+
+.navbar-light .navbar-brand:hover {
+  color: $light-gray;
+}
+
+
