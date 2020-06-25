@@ -51,3 +51,14 @@
 }
 
 
+.navbar-light .navbar-toggler {
+    color: white;
+    border-color: white;
+}
+
+@media (max-width: 600px) {
+.navbar-lewagon {
+  // [...]
+  background-color: $verdigris;
+  }
+}

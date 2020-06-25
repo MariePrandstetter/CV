@@ -5,9 +5,8 @@
     }
 
 .banner {
-  // background-size: cover;
   background-position: center;
-  padding: 150px 0;
+  padding: 100px 0 50px 0;
   background-position: center;
   background-size: cover;
   min-height: 100%;
@@ -34,6 +33,7 @@
 }
 
 #presentation {
+  // justify-content: space-around;
   color: black;
   background: $light-cyan;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
@@ -42,24 +42,19 @@
   padding: 30px 20px 30px 20px;
   border: $violet;
   border-radius: 10px;
-  margin : 20px;
+  margin: 10%;
 }
 
-.banner p {
-justify-content: space-around;
+@media (max-width: 600px) {
+  #presentation {
+    margin: 3%;
+    font-size: 18px;
+  }
+  #earth-logo {
+    width: 40%;
+    position: relative;
+    left: 30%;
+  }
 }
-
-
-// //  test à virer
-
-// .home-banner {
-//   background-image: url('TODO: A picture URL from unsplash.com!');
-//   background-size: cover;
-//   height: 100vh;
-//   color: #eee;
-//   text-align: center;
-//   padding-top: 40vh;
-// }
-
 
 
