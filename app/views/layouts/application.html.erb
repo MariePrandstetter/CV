@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>CV</title>
+    <title>Marie Bégué</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload', defer: true %>
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload', defer: true %>
 
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
   </head>
 
@@ -16,6 +17,8 @@
     <%= render 'shared/navbar' %>
     <%= render 'shared/banner' %>
     <%= render 'shared/projets' %>
+    <%= render 'shared/parcours' %>
+    <%= render 'shared/competences' %>
 
     <%= yield %>
 
