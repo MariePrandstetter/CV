@@ -1,23 +1,18 @@
 
-    <div class="container light-background">
+    <div class="container-contact container light-background">
       <div class="titre-section">
         <h2>CONTACT</h2>
       </div>
 
       <section >
         <form action="https://formspree.io/f/xjvaoraq"  method="POST">
-         <label>
-            <input type="text" name="name" placeholder="NOM">
-          </label>
-          <label>
-            <input type="text" name="_replyto">
-          </label>
-          <label>
-            <textarea name="message"></textarea>
-          </label>
-          <label>
-            <input  id="submit" type="submit" placeholder="ENVOYER">
-          </label>
+          <input name="name" type="text" class="feedback-input" placeholder="NOM" />
+
+          <input name="email" type="text" class="feedback-input" placeholder="EMAIL" name="_replyto" />
+
+          <textarea name="message"class="feedback-input" placeholder="MESSAGE"></textarea>
+
+          <input type="submit" value="ENVOYER"/>
         </form>
       </section>
     </div>
