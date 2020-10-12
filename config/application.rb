@@ -2,6 +2,8 @@ require_relative 'boot'
 
 require 'rails/all'
 
+# pb heroku
+
 config.assets.initialize_on_precompile = false
 
 # Require the gems listed in Gemfile, including any gems
