@@ -1,6 +1,6 @@
 import 'core-js/stable'
 import 'regenerator-runtime/runtime'
-import 'bootstrap';
+// import 'bootstrap';
 import $ from 'jquery';
 
 /* eslint no-console:0 */
