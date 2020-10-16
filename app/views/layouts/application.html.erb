@@ -18,16 +18,11 @@
   </head>
 
   <body>
-    <%= render 'shared/navbar' %>
-    <%= render 'shared/banner' %>
-    <%= render 'shared/projets' %>
-    <%= render 'shared/parcours' %>
-    <%= render 'shared/competences' %>
-    <%= render 'shared/ecoconception' %>
-    <%= render 'shared/contact' %>
+     <%= render 'shared/navbar' %>
 
+      <%= yield %>
 
-    <%= yield %>
+    <%= render 'shared/footer' %>
 
   </body>
 </html>
